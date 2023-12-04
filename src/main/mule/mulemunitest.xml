@@ -10,6 +10,9 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="mulemunitestFlow" doc:id="60d3897a-0afa-41d2-bb0f-45fda185c9b0" >
 		<http:listener doc:name="Listener" doc:id="8f73523f-fe79-4527-9217-e9b55ae70695" config-ref="HTTP_Listener_config" path="/munit"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="f405855a-419c-4d01-8aea-346ca553934e" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="b7f8a163-5371-4e95-9e67-64fcad5ef17e" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="c2d789db-ab12-4eac-9e47-365eea86c289" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="72c50888-b43c-464e-b019-929bd7ab05a9" />
 		
 	</flow>
 </mule>
