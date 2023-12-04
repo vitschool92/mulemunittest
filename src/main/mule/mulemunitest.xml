@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="mulemunitestFlow" doc:id="60d3897a-0afa-41d2-bb0f-45fda185c9b0" >
 		<http:listener doc:name="Listener" doc:id="8f73523f-fe79-4527-9217-e9b55ae70695" config-ref="HTTP_Listener_config" path="/munit"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="f405855a-419c-4d01-8aea-346ca553934e" />
+		<logger level="INFO" doc:name="Logger" doc:id="c59cf60e-4bfc-4f73-a482-406f2517550e" />
 	</flow>
 </mule>
